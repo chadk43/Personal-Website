@@ -1,0 +1,56 @@
+.head {
+  color: black;
+}
+
+.rounded {
+  margin-top: 50px;
+  margin-left: 30px;
+  border-radius: 25% 10%;
+  border: solid 3px rgb(35, 146, 237);
+  width: 30vw;
+  height: 3vw;
+  text-align: center;
+  padding: 100px 0px;
+  font-size: 3vw;
+  color: black;
+}
+
+.company-header-avatar {
+  height: 100px;
+  width: 900px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.rounded-circle {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 120px;
+  height: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  position: relative;
+  height: 95px;
+  width: 105px;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+
+.button {
+  position: relative;
+  border-radius: 40px;
+  background-color: rgb(35, 146, 237);
+  color: white;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  /* margin-left: 60px; */
+  width: 150px;
+  height: 75px;
+  transform: translateX(-50%);
+  left: 50%;
+}

@@ -1,0 +1,21 @@
+.main-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #1869ff;
+  color: white;
+  text-align: center;
+height: 2.5rem;
+    
+}
+
+.img-circle {
+  height: 30px;
+  width: 30px;
+ float:inline-end;
+}
+
+ul li footer {
+
+  display: inline-block;
+}
