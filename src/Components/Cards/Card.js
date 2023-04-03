@@ -1,9 +1,7 @@
 import classes from "./Card.module.css";
 import React, { useState } from "react";
-import { Document, Page } from "react-pdf";
 import { Card, Button, Modal } from "react-bootstrap";
-import DownloadLink from "react-download-link";
-import File from "./resume.pdf";
+
 
 const CardImage = (props) => {
   const [show, setShow] = useState(false);
@@ -12,7 +10,6 @@ const CardImage = (props) => {
 
   const downloadPDF = () => {
     // using Java Script method to get PDF file
-    console.log("downloading pdf");
     fetch('resume.pdf',{
       headers : { 
         'Content-Type': 'application/pdf',

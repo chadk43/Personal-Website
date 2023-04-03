@@ -1,7 +1,7 @@
 {
   "name": "website2",
   "version": "0.1.0",
-  "homepage": "http://chadk43.github.io/Personal-Website",
+  "homepage" : ".",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
