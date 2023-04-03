@@ -78,7 +78,7 @@ const Gaming1 = {
   body: "",
   buttontitle: "Details",
   buttonref: "",
-  bodydepth: "A fun MOBA that fuels my competitive spirit. I have acheived a rank shared by the top 0.1% of players and continue to try and get better."
+  bodydepth: "A fun MOBA that fuels my competitive spirit."
 };
 
 const Gaming2 = {
@@ -87,7 +87,7 @@ const Gaming2 = {
   body: "",
   buttontitle: "Details",
   buttonref: "",
-  bodydepth: "An action packed RTS that really builds mental fortitude. Micromanaging 30 things at once while manually moving each unit in battle makes an incredibly rewarding experience in victory."
+  bodydepth: "An RTS that simulates ancient civilizations."
 };
 const Gaming3 = {
   title: "Legends of Runeterra",
@@ -95,7 +95,7 @@ const Gaming3 = {
   body: "",
   buttontitle: "Details",
   buttonref: "",
-  bodydepth: "A beautiful relaxing card game I play when I want to wind down,"
+  bodydepth: "A card game with beautiful art"
 };
 
 const Programming1 = {
@@ -113,7 +113,7 @@ const Programming2 = {
   body: "",
   buttontitle: "Details",
   buttonref: "",
-  bodydepth: "I used this framework for my website along, with bootstrap. I have chosen to learn react as a tool I can use on future technical and ambitous projects."
+  bodydepth: "I used this framework for my website along, with bootstrap."
 };
 const Programming3 = {
   title: "SQL",
@@ -121,7 +121,7 @@ const Programming3 = {
   body: "",
   buttontitle: "Details",
   buttonref: "",
-  bodydepth: "A language I really enjoyed learning in school. I have big ambitions for data driven web applications and SQL is my tool of choice for extrapolating appropirate data."
+  bodydepth: "A language I really enjoyed in school. A data project will be next up for this website."
 };
 
 const AboutPage = () => {

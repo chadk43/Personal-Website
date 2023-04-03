@@ -89,9 +89,9 @@ const Navigation = () => {
           <li>
             <Link to="/">About</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/projects">Projects</Link>
-          </li> */}
+          </li>
           <li>
             <button onClick={handleShow}>Contact</button>
             {show ? (

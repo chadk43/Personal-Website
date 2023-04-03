@@ -1,27 +1,36 @@
 import classes from "./Card.module.css";
 import React, { useState } from "react";
+import { Document, Page } from "react-pdf";
 import { Card, Button, Modal } from "react-bootstrap";
+import DownloadLink from "react-download-link";
+import File from "./resume.pdf";
+
 const CardImage = (props) => {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
-  //const [properbutton, setproperbutton] = useState(false);
-  
   const downloadPDF = () => {
     // using Java Script method to get PDF file
-    fetch('COMP Resume.pdf').then(response => {
-        response.blob().then(blob => {
-            // Creating new object of PDF file
-            const fileURL = window.URL.createObjectURL(blob);
-            // Setting various property values
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'Resume.pdf';
-            alink.click();
-        })
-    })
-}
+    console.log("downloading pdf");
+    fetch('resume.pdf',{
+      headers : { 
+        'Content-Type': 'application/pdf',
+        'Accept': 'application/pdf'
+       }
+     }
+    ).then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "resume.pdf";
+        alink.click();
+      });
+    });
+  };
 
   return (
     <div className={classes["cardcss"]}>
@@ -39,17 +48,17 @@ const CardImage = (props) => {
           <Button
             className={classes["cardbutton"]}
             variant="primary"
-            onClick={props.buttontext=="Details" ? handleShow : downloadPDF} 
+            onClick={props.buttontext === "Details" ? handleShow : downloadPDF }
           >
             {props.buttontext}
           </Button>
           <Modal centered show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-              <Modal.Title id="contained-modal-title-vcenter">{props.title}</Modal.Title>
+              <Modal.Title id="contained-modal-title-vcenter">
+                {props.title}
+              </Modal.Title>
             </Modal.Header>
-            <Modal.Body>
-              {props.bodydepth}
-            </Modal.Body>
+            <Modal.Body>{props.bodydepth}</Modal.Body>
             <Modal.Footer>
               <Button variant="primary" onClick={handleClose}>
                 Close
