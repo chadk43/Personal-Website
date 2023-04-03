@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/Personal-Website/static/css/main.c7193b95.css",
-    "main.js": "/Personal-Website/static/js/main.26171ced.js",
+    "main.js": "/Personal-Website/static/js/main.32ac194e.js",
     "static/media/profile2.jpg": "/Personal-Website/static/media/profile2.337f8770ef57a8b656fe.jpg",
     "static/media/aoe.jpg": "/Personal-Website/static/media/aoe.5cc8977dbcf16feb5d34.jpg",
     "static/media/mountroyal.jpg": "/Personal-Website/static/media/mountroyal.2252963c187de7ff6ada.jpg",
-    "static/media/resume.pdf": "/Personal-Website/static/media/resume.ae2041b04d47d90a7d45.pdf",
     "static/media/javascript.jpg": "/Personal-Website/static/media/javascript.ca3010ab24ae902f0b2d.jpg",
     "static/media/kirby-paper.jpg": "/Personal-Website/static/media/kirby-paper.bb1d58f2835e8fffdd96.jpg",
     "static/media/league.jpeg": "/Personal-Website/static/media/league.b3522728779af1d06d5b.jpeg",
@@ -16,10 +15,10 @@
     "static/media/react.png": "/Personal-Website/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/Personal-Website/index.html",
     "main.c7193b95.css.map": "/Personal-Website/static/css/main.c7193b95.css.map",
-    "main.26171ced.js.map": "/Personal-Website/static/js/main.26171ced.js.map"
+    "main.32ac194e.js.map": "/Personal-Website/static/js/main.32ac194e.js.map"
   },
   "entrypoints": [
     "static/css/main.c7193b95.css",
-    "static/js/main.26171ced.js"
+    "static/js/main.32ac194e.js"
   ]
 }
