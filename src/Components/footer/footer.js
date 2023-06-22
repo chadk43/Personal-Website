@@ -8,7 +8,7 @@ const footer = () => {
       <ul className={classes["ul li footer"]}>
         <li>Chad Koivuneva © 2023 </li>
         <li>
-          <a href="https://github.com/ckoiv936">
+          <a href="https://github.com/chadk43">
             <Image src={github} className={classes["img-circle"]} />
           </a>
         </li>
